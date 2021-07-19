@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>REGISTRARSE</title>
+	<link rel="shortcut icon" href="../IMG/iconos/registerIcon.png">
+	<link rel="stylesheet" href="../CSS/registerStyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="../index.php"><img src="../IMG/eshoes_logo.png" height="75px" ></a>
+		</nav>
+	</section>
+	<section class="login">
+		<div class="container">
+			<h1 style="margin:0px ;font-family: 'Big Shoulders Stencil Display'; font-size: 2.4rem; ">REGISTRARSE</h1><br>
+			<form action="../register.php" method="POST">
+				<label for="name"> Escriba su nombre completo </label><br>
+				<input type="text" id="name" name="name" class="data" placeholder="Escriba su nombre">
+				<label for="email"> Escriba su email </label><br>
+				<input type="email" id="email" class="data" name="email" placeholder="Escriba su email">
+				<label for="psw"> Digite una contrasenia </label><br>
+				<input type="password" id="psw" name="psw" class="data" placeholder="Ingrese una contasenia">
+				<label for="pswConf"> Digite de nuevo su contrasenia </label><br>
+				<input type="password" id="pswConf" name="pswConf" class="data" placeholder="Ingrese de nuevo su contrasenia">
+				<input type="checkbox" id="accept" name="accept" class="accept"><label for="accept" style="font-size: .8rem;">Al seleccionar el campo, acepta los términos y condiciones
+				</label>
+				<br>
+				<input type="submit" name="btnsub" class="btnsub" value="¡Registrarme!"> 
+			</form>
+			<a href="login.html"><button> Iniciar Sesion </button></a>
+		</div>
+	</section>
+	<footer>
+		&copy2021 eshoes.com, Todos los derechos reservados.
+	</footer>
+</body>
+</html>

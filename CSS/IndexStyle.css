@@ -1,0 +1,207 @@
+body{
+	width:99.5%; 
+	height:100%; 
+	margin:0px;
+	background: whitesmoke;
+}
+
+
+.sticky{
+	position: sticky;
+	top: 0px;
+}
+.header div{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.85) 60%, rgba(0, 0, 0, .7) 100%);
+}
+
+.header div .btnLogin{
+	display:inline; 
+	float:right;
+	text-decoration: none;
+}
+
+.header div a{
+	text-decoration: none;
+}
+
+.header button{
+	display: flex;
+	margin-right: 50px; 
+	margin-top: 20px; 
+	color:white; 
+	background: steelblue;
+	padding: 5px 15px ;
+	border-radius:5px; 
+	font-family: 'Big Shoulders Stencil Display'; 
+	font-size: 1.8rem;
+}
+
+.header button:hover{
+	cursor: pointer;
+	background: rgb(90,150,200);
+}
+
+/*ESTILOS PARA EL USUARIO LOGUEADO*/
+
+.header div ul{
+	display:inline; 
+	float:right;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header div ul ul{
+	position: absolute;
+	display:inline; 
+	float:right;
+	border-radius: 5px;
+	padding: 0px;
+	display: none;
+}
+
+.header #btnLogout{
+	display: flex;
+	justify-content: center;
+	background:steelblue;
+	margin: 0px;
+	width: 195px;
+}
+
+.header div ul li:hover > ul{
+	display:  block;
+}
+
+
+/*MENU DE NAVEGACION*/
+
+.rooter{
+	columns:5; 
+	padding: 10px; 
+	background: rgba(187, 207, 41, 0.9);
+	top: 0px;
+}
+
+.rooter .column{
+	display: flex;
+	justify-content: center;
+}
+
+.rooter .column a{
+	font-size:2rem;
+	margin-left: 2px;
+	color: rgb(245, 245, 245);
+	font-family: 'Big Shoulders Stencil Display';
+}
+
+.rooter .column a:hover{
+	color: black;
+}
+
+.carousel{
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	height: 550px;
+	margin: 5px;
+}
+
+.previous{
+	display: inline-flex;
+	float: left;
+	align-items: center;
+}
+
+.carousel a{
+	margin: 0px 5px;
+	width: 95%;
+}
+
+.carousel .slide{
+	height: 100%;
+}
+
+.carousel .slide img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.next{
+	display: inline-flex;
+	float: right;
+	align-items: center;
+}
+
+.divisor{
+	width: 100%;
+	height: 5px;
+	margin: 5px;
+	background: gray;
+}
+
+.lema{
+	width: 100%;
+	padding: 25px;
+	text-align: center;
+	font-family: 'Yellowtail';
+	font-size: 2.4rem;
+	color: rgb(187, 207, 41);
+	font-weight: 700;
+
+}
+
+.opinions{
+	columns: 3;
+	width: 90%;
+	margin: 15px 5%;
+}
+
+.opinions .column{
+	text-align: center;
+	padding: 20px;
+	border: 5px dashed rgba(187, 207, 41, 0.9) ;
+	color: royalblue;
+	height:  300px;
+	overflow-y: scroll;
+}
+
+.footer{
+	width: 100%;
+	background: rgba(187, 207, 41, 0.9);
+	height: 250px;
+	columns: 4;
+}
+
+.footer .column{
+	padding-top: 10px;	
+	font-size: 1.6rem;
+	color: white;
+	height: 240px;
+	font-family: 'Big Shoulders Stencil Display';
+	text-align: center;
+
+}
+
+.footer .column h1{
+	margin: 0px;
+}
+
+.footer .column ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.footer .column li{
+	margin: 5px;
+}
+
+.footer .column a{
+	color: rgb(245, 245, 245);
+	margin: 10px;
+}
+
+.footer .column a:hover{
+	color: black;
+}
+

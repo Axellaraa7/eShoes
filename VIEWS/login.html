@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>REGISTRARSE</title>
+	<link rel="shortcut icon" href="../IMG/iconos/registerIcon.png">
+	<link rel="stylesheet" href="../CSS/loginStyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="../index.php"><img src="../IMG/eshoes_logo.png" height="75px" ></a>
+		</nav>
+	</section>
+	<section class="login">
+		<div class="container">
+			<h1 style="margin:0px ;font-family: 'Big Shoulders Stencil Display'; font-size: 2.4rem; ">INICIAR SESION</h1><br>
+			<form action="../login.php" method="POST">
+				<label for="email"> Escriba su email </label><br>
+				<input type="email" id="email" class="data" name="email"placeholder="Escriba su email" name="email">
+				<label for="psw"> Digite su contrasenia </label><br>
+				<input type="password" id="psw" name="psw" class="data" placeholder="Ingrese su contasenia" name="contrasenia">
+				<br>
+				<input type="submit" class="btnsub" value="¡Iniciar!"> 
+			</form>
+			<div class="registro">
+				<h5 style="margin:0px; font-family: 'Big Shoulders Stencil Display'; font-size: 1.0rem;">
+					<hr style="float:left;">¿Eres nuevo?<hr style="float: right;">
+				</h5>
+				<a href="../register.php">
+					<button class="register">
+						¡REGISTRATE!
+					</button>
+				</a>
+			</div>
+		</div>
+	</section>
+	<footer>
+		&copy2021 eshoes.com, Todos los derechos reservados.
+	</footer>
+</body>
+</html>
